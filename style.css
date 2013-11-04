@@ -1,0 +1,80 @@
+/*
+Theme Name: ReduxFramework Sample Theme
+Theme URI: https://github.com/ReduxFramework/ReduxFramework
+Description: A test theme for the Redux Framework.
+Author: Dovy
+Author URI: http://github.com/dovy
+Version: 1.0
+*/
+
+body {
+	background:#eee;
+}
+
+body, input, textarea {
+	color: #373737;
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.625;
+}
+
+p {
+	margin:0 0 10px 0;
+}
+
+h1, h2, h3 {
+	margin:0 0 10px 0;
+}
+
+#page {
+	background:#fff;
+	min-width:440px;
+	max-width:740px;
+	width:60%;
+	margin:20px auto;
+}
+
+header {
+	background:#dedede;
+	padding:30px 40px;
+}
+
+.entry-content {
+	padding:20px 40px;
+}
+
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:12px 'andale mono', 'lucida console', monospace;line-height:1.6;}
+
+code{
+	padding:3px 5px;
+	border: 1px solid #aaa;
+	background: #fafafa;
+	color: #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+pre {
+background-color: #F4F4F4;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #FAFAFA), color-stop(50%, #EFEFEF));
+background-image: -webkit-linear-gradient(#FAFAFA 50%,#EFEFEF 50%);
+background-image: -moz-linear-gradient(#FAFAFA 50%,#EFEFEF 50%);
+background-image: -o-linear-gradient(#FAFAFA 50%,#EFEFEF 50%);
+background-image: linear-gradient(#FAFAFA 50%,#EFEFEF 50%);
+border: 1px solid #C7C7C7;
+display: block;
+width: auto;
+line-height: 19px;
+margin-bottom: 10px;
+overflow: visible;
+padding: 0 0 0 4px;
+word-wrap:break-word;
+overflow-y: hidden;
+-moz-background-size: 38px 38px;
+background-size: 38px 38px;
+border-image: initial; 
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
