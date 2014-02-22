@@ -134,5 +134,5 @@ add_action( 'tgmpa_register', 'redux_sample_register_required_plugins' );
 
 **/
 if ( class_exists('ReduxFrameworkPlugin') ) {
-	remove_action('admin_notices', array( ReduxFrameworkPlugin::get_instance(), 'admin_notices' ) );	
+	remove_action('admin_notices', array( ReduxFrameworkPlugin::instance(), 'admin_notices' ) );	
 }
